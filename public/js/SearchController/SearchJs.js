@@ -1,5 +1,6 @@
 app.controller('SearchController', function ($scope, $http) {
     // get master data
+    
     $scope.init = function (page) {
         page = page || null;
         path = base_path + '/getselect';
