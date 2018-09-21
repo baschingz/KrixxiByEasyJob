@@ -19,6 +19,10 @@ Route::get('/home', function () {
     return view('Home');
 });
 
+Route::get('/Card', function(){
+    return view('Photographer/Card');
+});
+
 Route::get('/profile', function () {
     return view('Photographer/Profile');
 });
