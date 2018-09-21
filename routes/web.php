@@ -12,26 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('Home');
 });
 
 
-Route::get('search', function () {
-    return view('Search.Search');
-});
-
-Route::get('register', function () {
-    return view('Register.RegisterForm');
-});
-
-Route::get('login', function () {
-    return view('Register.RegisterForm');
-});
-
-Route::get('/manage', function () {
-    return view('Manage.Notification');
-});
-
-Route::post('register/employer', 'RegisterController@registerEmployer');
-
-Route::post('register/jobSeeker', 'RegisterController@registerJobSeeker');
