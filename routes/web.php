@@ -19,7 +19,10 @@ Route::get('/home', function () {
     return view('Home');
 });
 
+Route::get('/profile', function () {
+    return view('Photographer/Profile');
+});
+
 Route::get('getselect', 'SearchController@getSelect');
 
 Route::post('getbysearch','PhotographerController@getPhotographerByDate');
-
