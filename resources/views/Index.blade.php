@@ -15,7 +15,7 @@
         <div class="d-flex justify-content-center button-main-top">
             <div class="col-sm-3 text-btn">
                 <a href="#" class="btn btn-default btn-text btn-size-pink" data-toggle="modal" data-target="#exampleModalLong">Sign In</a>
-                <a href="http://localhost:8000/register" class="btn btn-default btn-text btn-size-blue">Register</a>
+                <!-- <a href="http://localhost:8000/register" class="btn btn-default btn-text btn-size-blue">Register</a> -->
                 <a href="http://localhost:8000/home" class="btn btn-default btn-text btn-size-bluefacebook">Facebook</a>
             
             </div>
