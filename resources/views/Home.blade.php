@@ -3,9 +3,7 @@
 @section('body')
 <section class="section-home">
     <div class="home-cover-image">
-        <div>
-
-        </div>
+        <button></button>
     </div>
 </section>
 
