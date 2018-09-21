@@ -5,11 +5,12 @@
 <div ng-controller="CardController">
     <section>
         <div class="container">
+            <h2>Recommend for you</h2>
             <div class="row">
                 <div class="col-sm-4" ng-repeat="">
                     <div class="card hovercard border-card">
                         <div class="cardheader">
-                            <img src="{{asset('images/profile/profile1/album/alp1.jpg')}}" alt="" width="auto" height="200px">
+                            <img src="{{asset('images/profile/profile1/album/1.jpg')}}" alt="" width="auto" height="200px">
                         </div>
 
                         <div class="avatar">
