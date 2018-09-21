@@ -28,7 +28,10 @@
 
 <body>
 
+    
+
     @yield('body')
+    
     <footer>
 
     </footer>

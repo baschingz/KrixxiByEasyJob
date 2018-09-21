@@ -5,5 +5,5 @@
 @endsection
 
 @section('script')
-<script src='{{asset('js/PhotographerController/SearchJs.js')}}'></script>
+<script src='{{asset('js/PhotographerController/PhotographerJs.js')}}'></script>
 @endsection
