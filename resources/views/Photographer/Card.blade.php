@@ -5,11 +5,13 @@
 <div ng-controller="CardController">
     <section>
         <div class="container">
+            <br>
+            <h1 align="center" id="recom">Recommend for you</h1>
             <div class="row">
                 <div class="col-sm-4" ng-repeat="">
                     <div class="card hovercard border-card">
                         <div class="cardheader">
-                            <img src="{{asset('images/profile/profile1/album/alp1.jpg')}}" alt="" width="auto" height="200px">
+                            <img src="{{asset('images/profile/profile1/album/1.jpg')}}" alt="" width="auto" height="200px">
                         </div>
 
                         <div class="avatar">
@@ -46,11 +48,11 @@
                             </div>
                             <div class="desc center2 row">
                                 <div class="col-sm-12">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
                                 </div>
                             </div>
                             <br>
@@ -103,11 +105,11 @@
                             </div>
                             <div class="desc center2 row">
                                 <div class="col-sm-12">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
                                 </div>
                             </div>
                             <br>
@@ -160,11 +162,11 @@
                             </div>
                             <div class="desc center2 row">
                                 <div class="col-sm-12">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
+                                    <i class="fa fa-star" style="color:#F1BD00;"></i>
                                 </div>
                             </div>
                             <br>
@@ -194,6 +196,7 @@
             "สวัสดีค่ะดิฉันชื่อต๋อมหมี เป็นช่างภาพมืออาชีพ รักในการถ่ายภาพเป็นชีวิตจิตใจหลงใหลในการกดชัตเตอร์ ขอบคุณทุกท่านที่เข้ามาดูผลงานของเรา หากรักในงานของเราให้เราเป็นส่วนหนึ่งในการสร้างความทรงจำให้กับทุกๆท่านนะคะ"
 
     }
+
 
 </script>
 
