@@ -6,9 +6,11 @@
 @section('script')
 <script src='{{asset('js/PhotographerController/PhotographerJs.js')}}'></script>
 
+
+
 <div id="form1">
   <div class="card" style="margin-top:-5%;">
-    <img class="card-img cover-img" src="<% photographer[0].cover_img %>">
+    <img class="card-img cover-img" src="..\images\profile\profile1\album\alp1.jpg">
   </div>
   <div class="container-fluid" style="padding-top:1%; padding-bottom:2%;">
     <div class="col-sm-3 col-md-offset-1">
