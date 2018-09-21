@@ -32,9 +32,7 @@
     <footer>
 
     </footer>
-    <script src="{{asset('js/MainController/MainJs.js')}}"></script>
-    <script src="{{asset('js/bootstrap.bundle.js')}}"></script>
-    <script src="{{asset('js/bootstrap.js')}}"></script>
+    <script src="{{asset('js/MainJs.js')}}"></script>
     @yield('script')
     </div>
 </body>
