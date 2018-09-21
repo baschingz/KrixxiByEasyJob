@@ -1,11 +1,11 @@
 @extends('main')
 
 @section('body')
-<!-- <section class="section-home">
+<section class="section-home">
     <div class="home-cover-image">
         <div class="row justify-content-center">
             <div class="col-sm-5">
-                <button class="btn btn-default button-top btn-width-default btn-text-default"> <i class="fa fa-search" aria-hidden="true"></i> Smart search</button>        
+              <a href="http://localhost:8000/card"> <button class="btn btn-default button-top btn-width-default btn-text-default"> <i class="fa fa-search" aria-hidden="true"></i> Smart search</button> </a>       
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@
 
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="section-auction">
     <div class="container">
