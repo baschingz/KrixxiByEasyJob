@@ -71,7 +71,7 @@
                 <div class="card-auction">
                     <img src="{{asset('images/pop/arm.jpg')}}" alt="Avatar" style="width:100%">
                     <div class="container-auction">
-                        <h5 class="card-title text-name-auction"> <i class="fa fa-camera" aria-hidden="true"></i> Somsri Puss Kill</h5>
+                        <h5 class="card-title text-name-auction"> <i class="fa fa-camera" aria-hidden="true"></i> Somsri Black Cat</h5>
                         <p class="card-text text-detail-auction">ช่างภาพสาย dark ที่มาแรงในยุคนี้ที่ไม่มีคนไหนไม่รู้จักชื่อเสียงของเขา ได้ผลงานการถ่ายภาหลายสถาบัน</p>
                         <p id="demo2" class="timer"></p>
                         <p class="card-text text-detail-price">3,100 THB</p>
@@ -85,7 +85,7 @@
                 <div class="card-auction">
                     <img src="{{asset('images/pop/bom.jpg')}}" alt="Avatar" style="width:100%">
                     <div class="container-auction">
-                        <h5 class="card-title text-name-auction"> <i class="fa fa-camera" aria-hidden="true"></i> BomBey</h5>
+                        <h5 class="card-title text-name-auction"> <i class="fa fa-camera" aria-hidden="true"></i> Atomic BomBey</h5>
                         <p class="card-text text-detail-auction">ช่างภาพสายฮา ถนัดงานแบบลุยๆ ถ่ายแบบให้ดาราระดับโลก ประจำนิตยสารชื่อดังในทั่วโลก</p>
                         <p id="demo3" class="timer"></p>
                         <p class="card-text text-detail-price">2,800 THB</p>

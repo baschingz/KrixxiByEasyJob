@@ -8,9 +8,9 @@
             <br>
             <h1 align="center" id="recom">Recommend for you</h1>
             <div class="row">
-                <div class="col-sm-4" ng-repeat="">
-                    <div class="card hovercard border-card">
-                        <div class="cardheader">
+                <div class="col-sm-4">
+                    <div class="card border-primary hovercard border-card">
+                        <div class="cardheader" align="center">
                             <img src="{{asset('images/profile/profile1/album/1.jpg')}}" alt="" width="auto" height="200px">
                         </div>
 
@@ -30,7 +30,8 @@
                                 <div class="col-sm-12">
                                     <div id="textmore">
                                         <i class="fa fa-list-alt"></i>
-                                        สวัสดีค่ะดิฉันชื่อต๋อมหมี เป็นช่างภาพมืออาชีพ รักในการถ่ายภาพเป็น <a href="#" onclick="showMore()"><u>...อ่านต่อ</u></a>                                    
+                                        สวัสดีค่ะดิฉันชื่อต๋อมหมี เป็นช่างภาพมืออาชีพ รักในการถ่ายภาพเป็น <a href="#"
+                                            onclick="showMore()"><u>...อ่านต่อ</u></a>
                                     </div>
                                 </div>
                             </div>
@@ -65,9 +66,9 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4" ng-repeat="">
-                    <div class="card hovercard border-card">
-                        <div class="cardheader">
+                <div class="col-sm-4">
+                    <div class="card border-primary hovercard border-card">
+                        <div class="cardheader" align="center">
                             <img src="{{asset('images/profile/profile2/cover.jpg')}}" alt="" width="auto" height="200px">
                         </div>
 
@@ -122,12 +123,11 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4" ng-repeat="">
-                    <div class="card hovercard border-card">
-                        <div class="cardheader">
+                <div class="col-sm-4">
+                    <div class="card border-primary hovercard border-card">
+                        <div class="cardheader" align="center">
                             <img src="{{asset('images/profile/profile3/cover.jpg')}}" alt="" width="auto" height="200px">
                         </div>
-
                         <div class="avatar">
                             <a href="" target="_blank"><img src="{{asset('images/profile/profile3/profile.jpg')}}"
                                     class="img-cover1" alt="" /></a>
@@ -144,7 +144,8 @@
                                 <div class="col-sm-12">
                                     <div id="textmore">
                                         <i class="fa fa-list-alt"></i>
-                                        ยินดีต้อนรับเข้าสู่ PRYN ที่จะทำให้ความทรงจำของทุกท่านเก็บอยู่ในรูปที่สวยงามที่สุด
+                                        ยินดีต้อนรับเข้าสู่ PRYN
+                                        ที่จะทำให้ความทรงจำของทุกท่านเก็บอยู่ในรูปที่สวยงามที่สุด
                                     </div>
                                 </div>
                             </div>
@@ -182,6 +183,7 @@
 
             </div>
         </div>
+
     </section>
 </div>
 
@@ -196,7 +198,6 @@
             "สวัสดีค่ะดิฉันชื่อต๋อมหมี เป็นช่างภาพมืออาชีพ รักในการถ่ายภาพเป็นชีวิตจิตใจหลงใหลในการกดชัตเตอร์ ขอบคุณทุกท่านที่เข้ามาดูผลงานของเรา หากรักในงานของเราให้เราเป็นส่วนหนึ่งในการสร้างความทรงจำให้กับทุกๆท่านนะคะ"
 
     }
-
 
 </script>
 
