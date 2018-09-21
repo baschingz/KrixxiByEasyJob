@@ -19,7 +19,7 @@ Route::get('/home', function () {
     return view('Home');
 });
 
-Route::get('/Card', function(){
+Route::get('/card', function(){
     return view('Photographer/Card');
 });
 
