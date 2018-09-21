@@ -1,9 +1,41 @@
 .home-cover-image{
     width:100%;
-    height: 520px;
+    height: 450px;
     background-image: url("../images/cover/cover1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.button-top{
+    margin-top: 35%;;
+}
+
+.btn-width-default{
+    width: 100%;
+    background-color: #ffffff;
+    border : 2px solid #ffffff;
+}
+
+.btn-text-default{
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.card-top-search{
+    width: 100%;
+    height: 220px;
+    margin-top: 11%;
+}
+
+.home-menu-top{
+    margin-top: 5%;
+}
+
+.text-menu{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
 }
