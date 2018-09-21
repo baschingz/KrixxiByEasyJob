@@ -16,8 +16,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('requirement', function () {
-    return view('Requirement.Requirement');
+Route::get('search', function () {
+    return view('Search.Search');
 });
 
 Route::get('register', function () {
