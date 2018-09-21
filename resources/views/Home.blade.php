@@ -4,6 +4,7 @@
 
 
 
+
 @section('script')
 <script src='{{asset('js/SearchController/SearchJs.js')}}'></script>
 @endsection

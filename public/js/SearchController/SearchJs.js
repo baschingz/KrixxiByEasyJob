@@ -1,6 +1,6 @@
 app.controller('SearchController', function ($scope, $http) {
-    // get master data
 
+    // get master data 
     $scope.init = function (page) {
         page = page || null;
         path = base_path + '/getselect';
@@ -19,6 +19,7 @@ app.controller('SearchController', function ($scope, $http) {
         });
     }
 
+    // search by use keyword 
     $scope.searching = function(request){
         var req = {
             params:request,
