@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-social.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-grid.min.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-reboot.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/search.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
     <link rel="icon" href="{{asset('../images/icon/Icon-20.png')}}" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/home.css')}}">
