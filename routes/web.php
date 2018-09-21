@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('getselect', 'SearchController@getSelect');
 
+Route::post('getbysearch','PhotographerController@getPhotographerByDate');
+
