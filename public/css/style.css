@@ -1,0 +1,138 @@
+.cover-image{
+    width:100%;
+    height: 690px;
+    background-image: url("../images/cover/cover-main2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-nav a{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+.text-btn a:hover{
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+}
+
+.navbar-bgcolor{
+    background-image: linear-gradient(#F08080,#FFA07A);
+}
+
+.icon-main{
+   margin-top: 7%;
+}
+
+.text-logo-main{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5em;
+    margin-top: -2%;
+    font-weight: 700;
+}
+
+.text-easy{
+    color: #F08080;
+}
+
+.text-job{
+    color: #196985;
+}
+
+.btn-size-pink{
+    width: 100%;
+    /*background: linear-gradient(to bottom, #F08080 0%, #FFA07A 100%);*/
+    background-color: rgba(240, 128, 128, 0.836);
+    color: #fff;
+    margin-bottom: 7%;
+}
+
+.btn-size-blue{
+    width: 100%;
+    /*background: linear-gradient(to bottom, #F08080 0%, #FFA07A 100%);*/
+    background-color: #196885e3;
+    color: #fff;
+    margin-bottom: 7%;
+}
+
+.btn-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+.btn-login{
+    background: linear-gradient(to bottom, #F08080 0%, #FFA07A 100%);
+    color: #fff;
+    text-align: right;
+}
+
+.form-border{
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: rgba(0,0,0 ,0.2);
+}
+
+.text-slogan-main{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    margin-top: -1%;
+    font-weight: 300;
+}
+
+.button-main-top{
+    margin-top: 2%;
+}
+
+/* section-register */
+.section-register > .top {
+    margin-top: 5%;
+}
+
+.vl {
+    border-left: 1px solid rgb(80, 80, 80);
+    height: 500px;
+}
+
+.size-img-register{
+    width: 95%;
+    
+}
+
+.form-register-top{
+    margin-top: 5%;
+}
+
+.text-topic-register{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.text-input-register{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.top-regis{
+    margin-top: 3%;
+}
+
+.btn-size-regis{
+    width: 100%;
+    background: linear-gradient(to bottom, #F08080 0%, #FFA07A 100%);
+    color: #fff;
+    margin-bottom: 7%;
+}
