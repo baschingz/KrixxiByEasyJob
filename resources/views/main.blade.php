@@ -10,7 +10,7 @@
     @yield('import')
 
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-grid.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-grid.min.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-reboot.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
     <link rel="icon" href="{{asset('../images/icon/Icon-20.png')}}" type="image/x-icon"/>

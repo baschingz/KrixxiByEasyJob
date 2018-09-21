@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('Home');
 });
 
+Route::get('Card', function(){
+    return view('Photographer/Card');
+});
+
 Route::get('getselect', 'SearchController@getSelect');
 
 Route::post('getbysearch','PhotographerController@getPhotographerByDate');
