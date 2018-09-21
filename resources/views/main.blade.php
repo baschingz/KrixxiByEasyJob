@@ -32,18 +32,34 @@
 <body>
     <section class="section-navbar">
         <header>
-            <nav class="navbar navbar-light bg-light text-nav">
-                <a class="navbar-brand" href="http://localhost:8000">Krixxi</a>
-                <!-- <button type="button" class="btn btn-login" data-toggle="modal" data-target="#exampleModalLong">Sign In</button> -->
-            </nav>
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-light bg-light text-nav">
+                        <a class="navbar-brand" href="http://localhost:8000">Krixxi</a>         
+                    </nav>
+                </div>
+            </div>            
         </header>
     </section>
-
-
+    
     @yield('body')
 
-    <footer>
-
+    <footer class="footer">
+        <div class="container text-footer">
+            <div class="row">
+                <div class="col-sm-6 text-footer-krixxi" style="margin-top: 2%;">
+                    Krixxi
+                </div>
+                <div class="col-sm-6" style="margin-top: 2%;">
+                    <ul class="nav">
+                        <li>Contact us</li>
+                        <li>E-mail : Krixxi@gmail.com</li>
+                        <li>Tel : 098-107-5755</li>
+                        <li>Facebook : Krixxi แหล่งรวมช่างภาพ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="{{asset('js/MainJs.js')}}"></script>
     @yield('script')
