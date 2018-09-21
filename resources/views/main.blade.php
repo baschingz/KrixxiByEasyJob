@@ -26,16 +26,16 @@
 </head>
 
 <body>
-<div ng-controller='MainController'> 
+<div ng-controller='MainController'>
     <section class="section-navbar">
         <header>
-            <nav class="navbar navbar-light bg-light text-nav">                
+            <nav class="navbar navbar-light bg-light text-nav">
                 <a class="navbar-brand" href="http://localhost:8000">Easy Job</a>
                 <button type="button" class="btn btn-login" data-toggle="modal" data-target="#exampleModalLong">Sign In</button>
             </nav>
         </header>
     </section>
-    
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
         aria-hidden="true">

@@ -17,19 +17,19 @@
         <div class="row justify-content-center">
           <div class="col-sm-12">
             <img src="{{asset('images/img/img1.jpg')}}" class="size-img-register">
-          </div>          
+          </div>
         </div>
       </div>
-      
+
       <div class="col-sm-6" ng-controller='RegisterController'>
         <form name="Employee" id='employerForm'>
           <div >
             <div class="row text-topic-register">
               <div class="col-sm-12">
-                Employee  
-              </div>                           
+                Employee
+              </div>
             </div>
-            <hr>  
+            <hr>
             <div class="row justify-content-center">
               <div class="col-sm-8">
                 <div class="input-group mb-3">
@@ -116,10 +116,10 @@
           <div>
             <div class="row text-topic-register">
                 <div class="col-sm-12">
-                  Job Seeker  
-                </div>                           
+                  Job Seeker
+                </div>
               </div>
-              <hr>  
+              <hr>
               <div class="row justify-content-center">
                 <div class="col-sm-8">
                   <div class="input-group mb-3">
