@@ -1,15 +1,16 @@
 @extends('main')
 
-
-@section('import')
-<link rel="stylesheet" type="text/css" href="{{asset('css/home.css')}}">
-@endsection
-
+@section('body')
 <section class="section-home">
-    <div class="cover-image">
-        
+    <div class="home-cover-image">
+        <div>
+
+        </div>
     </div>
 </section>
+
 @section('script')
+
 @endsection
 
+@endsection
