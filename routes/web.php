@@ -23,8 +23,12 @@ Route::get('/card', function(){
     return view('Photographer/Card');
 });
 
-Route::get('/profile', function () {
+Route::get('/profile/1', function () {
     return view('Photographer/Profile');
+});
+
+Route::get('/profile/2', function () {
+    return view('Photographer/Profile1');
 });
 
 Route::get('getselect', 'SearchController@getSelect');

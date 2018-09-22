@@ -101,25 +101,22 @@
             </div>
         </div>
         <div class="col-sm-7" style=" padding-left:50px;">
-            <div class="font-topic-penname">TOMMY</div>
+            <div class="font-topic-penname">Withp</div>
             <div style="font-size:18px;"><span class="font-photograph fa"></span><span class="font-photograph2">Detail
-                    : </span> <span class="weight">สวัสดีค่ะดิฉันชื่อต๋อมหมี
-                    เป็นช่างภาพมืออาชีพ รักในการถ่ายภาพเป็นชีวิตจิตใจ หลงใหลในการกดชัตเตอร์
-                    ขอบคุณทุกท่านที่เข้ามาดูผลงานของเรา หากรักในงานของเรา
-                    ให้เราเป็นส่วนหนึ่งในการสร้างความทรงจำให้กับทุกๆท่านนะคะ </span></div>
+                    : </span> <span class="weight">สวัสครับ ผมชื่อพี เป็นคนชอบถ่ายรูป ไว้ว่างๆ มาร่วมถ่ายรูปไปด้วยกันนะครับ </span></div>
             <ul class="list-unstyled" style="font-size:18px; font-family: 'Kanit';">
                 <li class="font-photograph glyphicon glyphicon-user"></li><span class="font-photograph fa fa-user-circle">
-                </span> <span class="font-photograph2">Name : </span> <span class="weight">Thanita Khopengklang</span>
+                </span> <span class="font-photograph2">Name : </span> <span class="weight">Parinya Premthaisong</span>
                 <br>
                 <li class="font-photograph glyphicon glyphicon-globe"></li><span class="font-photograph fa fa-globe">
                 </span> <span class="font-photograph2">Location : </span> <span class="weight">ภาคตะวันออกเฉียงเหนือ
                 </span>
                 <br>
                 <li class="font-photograph glyphicon glyphicon-camera" aria-hidden="true"></li><span class="font-photograph fa fa-camera">
-                </span> <span class="font-photograph2">Half : </span> <span class="weight">2000</span></span>
+                </span> <span class="font-photograph2">Half : </span> <span class="weight">2500</span></span>
                 <br>
                 <li class="font-photograph glyphicon glyphicon-camera" aria-hidden="true"></li><span class="font-photograph fa fa-camera">
-                </span> <span class="font-photograph2">Full : </span> <span class="weight">3000</span> </span>
+                </span> <span class="font-photograph2">Full : </span> <span class="weight">3500</span> </span>
                 <br>
                 <li class="" aria-hidden="true"></li><button class="btn-deal" data-toggle="modal" data-target="#myModal">Deal</button>
             </ul>

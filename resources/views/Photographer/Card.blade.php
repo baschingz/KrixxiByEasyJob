@@ -6,7 +6,8 @@
     <section>
         <div class="container">
             <br>
-            <h1 align="center" id="recom">Recommend for you</h1>
+            <h1 align="center" id="recom" class="text-topic-card">Recommend for you</h1>
+            <hr>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card border-primary hovercard border-card">
@@ -15,11 +16,11 @@
                         </div>
 
                         <div class="avatar">
-                            <a href="" target="_blank"><img src="{{asset('images/profile/profile1/tommy.jpg')}}" class="img-cover1"
+                            <a href="http://localhost:8000/profile/1" target="_blank"><img src="{{asset('images/profile/profile1/tommy.jpg')}}" class="img-cover1"
                                     alt="" /></a>
                         </div>
                         <br>
-                        <div class="info">
+                        <div class="info text-name-card">
                             <div class="title row">
                                 <div class="col-sm-12">
                                     <i class="fa fa-camera"></i>
@@ -59,7 +60,7 @@
                             <br>
                             <div class="row">
                                 <div class="input-group-btn col" align="center">
-                                    <button type="button" class="btn-primary">Deal</button>
+                                <button class="btn btn-default text-btn-auction btn-width-auction">Deal</button>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +78,7 @@
                                     class="img-cover1" alt="" /></a>
                         </div>
                         <br>
-                        <div class="info">
+                        <div class="info text-name-card">
                             <div class="title row">
                                 <div class="col-sm-12">
                                     <i class="fa fa-camera"></i>
@@ -116,7 +117,7 @@
                             <br>
                             <div class="row">
                                 <div class="input-group-btn col" align="center">
-                                    <button type="button" class="btn-primary">Deal</button>
+                                    <button class="btn btn-default text-btn-auction btn-width-auction">Deal</button>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +134,7 @@
                                     class="img-cover1" alt="" /></a>
                         </div>
                         <br>
-                        <div class="info">
+                        <div class="info text-name-card">
                             <div class="title row">
                                 <div class="col-sm-12">
                                     <i class="fa fa-camera"></i>
@@ -173,7 +174,7 @@
                             <br>
                             <div class="row">
                                 <div class="input-group-btn col" align="center">
-                                    <button type="button" class="btn-primary">Deal</button>
+                                    <button class="btn btn-default text-btn-auction btn-width-auction">Deal</button>
                                 </div>
                             </div>
                         </div>
