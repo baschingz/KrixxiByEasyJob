@@ -278,5 +278,11 @@
 
 
 @section('script')
+<script>
+function click(e){
+    var id = document.getElementById(e);
+    
+}
+</script>
 @endsection
 @endsection
