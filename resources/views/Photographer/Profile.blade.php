@@ -78,6 +78,130 @@
         margin-bottom: 10px;
     }
 
+    #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg:hover {
+        opacity: 0.7;
+    }
+    #myImg2 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg2:hover {
+        opacity: 0.7;
+    }
+    #myImg3 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg3:hover {
+        opacity: 0.7;
+    }
+    #myImg4{
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg4:hover {
+        opacity: 0.7;
+    }
+
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Black w/ opacity */
+    }
+
+    /* Modal Content (Image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    /* Caption of Modal Image (Image Text) - Same Width as the Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+    /* Add Animation - Zoom in the Modal */
+    .modal-content,
+    #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @keyframes zoom {
+        from {
+            transform: scale(0)
+        }
+
+        to {
+            transform: scale(1)
+        }
+    }
+
+    /* The Close Button */
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px) {
+        .modal-content {
+            width: 100%;
+        }
+    }
+
 </style>
 @extends('main')
 @section('import')
@@ -137,10 +261,12 @@
         <div class="col-sm-8" style="margin:auto">
             <div class="row">
                 <div class="col-3">
-                    <img class="card-img photo-size" src="{{asset('images/profile/profile1/album/1.jpg')}}" alt="Card image">
+                    <img id="myImg" class="card-img photo-size" src="{{asset('images/profile/profile1/album/1.jpg')}}"
+                        alt="Card image">
                 </div>
                 <div class="col-3">
-                    <img class="card-img photo-size" src="{{asset('images/profile/profile1/album/2.jpg')}}" alt="Card image">
+                    <img id="myImg2" class="card-img photo-size" src="{{asset('images/profile/profile1/album/2.jpg')}}"
+                        alt="Card image">
                 </div>
                 <div class="col-3">
                     <img class="card-img photo-size" src="{{asset('images/profile/profile1/album/12.jpg')}}" alt="Card image">
@@ -150,7 +276,17 @@
                 </div>
             </div>
         </div>
+        <div id="myModal" class="modal">
 
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"> Photo</div>
+        </div>
     </div>
 </div>
 
@@ -164,10 +300,10 @@
         <div class="col-sm-8" style="margin:auto">
             <div class="row">
                 <div class="col-3">
-                    <img class="card-img photo-size" src="{{asset('images/profile/profile1/album/32.jpg')}}" alt="Card image">
+                    <img id="myImg3" class="card-img photo-size" src="{{asset('images/profile/profile1/album/32.jpg')}}" alt="Card image">
                 </div>
                 <div class="col-3">
-                    <img class="card-img photo-size" src="{{asset('images/profile/profile1/album/34.jpg')}}" alt="Card image">
+                    <img id="myImg4" class="card-img photo-size" src="{{asset('images/profile/profile1/album/34.jpg')}}" alt="Card image">
                 </div>
                 <div class="col-3">
                     <img class="card-img photo-size" src="{{asset('images/profile/profile1/album/33.jpg')}}" alt="Card image">
@@ -193,95 +329,176 @@
 <div class="container">
     <h2 class="text-center">FeedBack</h2>
     <div class="row justify-content-center">
-    <div class="card w-75">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="{{asset('images/pop/pep.jpg')}}"  style="width: 120px; height: 120px; border-radius: 50%" class="img img-rounded img-fluid" />
-                    <p class="text-secondary">15 Minutes Ago</p>
-                </div>
-                <div class="col-md-9">
-                    <p>
-                        <a class="float-left" href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Nakarin Jantratep</strong></a>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+        <div class="card w-75">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="{{asset('images/pop/pep.jpg')}}" style="width: 120px; height: 120px; border-radius: 50%"
+                            class="img img-rounded img-fluid" />
+                        <p class="text-secondary">15 Minutes Ago</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p>
+                            <a class="float-left" href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Nakarin
+                                    Jantratep</strong></a>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
 
-                    </p>
-                    <div class="clearfix"></div>
-                    <p>บริการเป็นกันเองมากครับ รูปออกมาสวย คนนี้ไม่ต้องหานานเลย ออกมาตามสไตล์ที่ smart search หาให้เลย โดยรวมชอบมากครับ</p>
-                    <p>
-                        <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
-                        <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
-                    </p>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p>บริการเป็นกันเองมากครับ รูปออกมาสวย คนนี้ไม่ต้องหานานเลย ออกมาตามสไตล์ที่ smart search
+                            หาให้เลย โดยรวมชอบมากครับ</p>
+                        <p>
+                            <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
+                            <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-        </div>
-    </div>
-    <div class="card w-75">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="{{asset('images/pop/eye.jpg')}}"  style="width: 120px; height: 120px; border-radius: 50%" class="img img-rounded img-fluid" />
-                    <p class="text-secondary">15 Minutes Ago</p>
-                </div>
-                <div class="col-md-9">
-                    <p>
-                        <a class="float-left" href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Nakarin Jantratep</strong></a>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-
-                    </p>
-                    <div class="clearfix"></div>
-                    <p>ชอบมากเลย ช่างภาพกันเองมากๆ ให้แกได้ตลอดเลย ได้ของตามเวลา<p>
-                        <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
-                        <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
-                    </p>
-                </div>
             </div>
         </div>
-    </div>
-    <div class="card w-75">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="{{asset('images/pop/ty.jpg')}}"  style="width: 120px; height: 120px; border-radius: 50%" class="img img-rounded img-fluid" />
-                    <p class="text-secondary">45 Minutes Ago</p>
-                </div>
-                <div class="col-md-9">
-                    <p>
-                        <a class="float-left" href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Nakarin Jantratep</strong></a>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                        <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+        <div class="card w-75">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="{{asset('images/pop/eye.jpg')}}" style="width: 120px; height: 120px; border-radius: 50%"
+                            class="img img-rounded img-fluid" />
+                        <p class="text-secondary">15 Minutes Ago</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p>
+                            <a class="float-left" href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Nakarin
+                                    Jantratep</strong></a>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
 
-                    </p>
-                    <div class="clearfix"></div>
-                    <p>สนุกมากถ่ายกับช่างภาพคนนี้ ขอบคุณเว็บนี้มาก หาช่างภาพได้เร็วมาก<p>
-                        <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
-                        <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
-                    </p>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p>ชอบมากเลย ช่างภาพกันเองมากๆ ให้แกได้ตลอดเลย ได้ของตามเวลา<p>
+                                <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
+                                <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
+                            </p>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="card w-75">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="{{asset('images/pop/ty.jpg')}}" style="width: 120px; height: 120px; border-radius: 50%"
+                            class="img img-rounded img-fluid" />
+                        <p class="text-secondary">45 Minutes Ago</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p>
+                            <a class="float-left" href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Nakarin
+                                    Jantratep</strong></a>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                            <span class="float-right"><i class="text-warning fa fa-star"></i></span>
 
+                        </p>
+                        <div class="clearfix"></div>
+                        <p>สนุกมากถ่ายกับช่างภาพคนนี้ ขอบคุณเว็บนี้มาก หาช่างภาพได้เร็วมาก<p>
+                                <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
+                                <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
+                            </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </div>
-</div>
+
 
 
 
 
 @section('script')
 <script>
-function click(e){
-    var id = document.getElementById(e);
-    
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg2');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+}
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
 }
 </script>
 @endsection
