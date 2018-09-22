@@ -15,7 +15,6 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/search.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
     <link rel="icon" href="{{asset('../images/icon/Icon-20.png')}}" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="{{asset('css/home.css')}}">
 
     <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,400,500|Quicksand:300,400,500" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -62,6 +61,8 @@
         </div>
     </footer>
     <script src="{{asset('js/MainJs.js')}}"></script>
+    <script src="{{asset('js/bootstrap.bundle.js')}}"></script>
+    <script src="{{asset('js/bootstrap.bundle.js')}}"></script>
     @yield('script')
     </div>
 </body>
